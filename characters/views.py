@@ -45,5 +45,3 @@ class CharacterListView(generics.ListAPIView):
     def get(self, request, *args, **kwargs) -> Response:
         """List characters with filter by name"""
         return super().get(request, *args, **kwargs)
-
-
